@@ -14,7 +14,7 @@ pipeline{
 				      }
 	 		stage("test"){
 				steps{
-					bat 'java -jar MavenProject-0.0.1-SNAPSHOT.jar'
+					bat 'java -jar target/MavenProject-0.0.1-SNAPSHOT.jar'
 			             }
 		   		     }
 		 	}
